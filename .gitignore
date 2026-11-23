@@ -1,1 +1,35 @@
 
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Laravel
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Frontend build
+/public/build/
+/public/hot
+
+# IDE
+/.idea/
+/.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
